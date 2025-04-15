@@ -26,14 +26,14 @@
 <meta property="og:site_name" content="Brown.Y&#39;s Blog">
 <meta property="og:description" content="线性回归 回归：为自变量与因变量之间进行建模 机器学习中大多数任务与预测有关，预测问题可以分为：分类，回归两大类 基本元素： 训练数据集&#x2F;训练集 每行数据、数据点、样本 标签、目标：试图预测的对象 特征、协变量：预测所依据的自变量 样本数：n 线性模型 ŷ &#x3D; Xw + b 在这个求和过程中将使用广播机制，w表示权重矩阵 损失函数 损失函数（loss function">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://brown-y.github.io/img/testfile1/fit-linreg.svg_">
+<meta property="og:image" content="https://brown-y.github.io/img/testfile1/fit-linreg.png">
 <meta property="article:published_time" content="2025-04-14T12:29:54.834Z">
-<meta property="article:modified_time" content="2025-04-15T01:39:08.955Z">
+<meta property="article:modified_time" content="2025-04-15T02:10:41.355Z">
 <meta property="article:author" content="Brown Young">
 <meta property="article:tag" content="deep learning">
 <meta property="article:tag" content="note">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://brown-y.github.io/img/testfile1/fit-linreg.svg_">
+<meta name="twitter:image" content="https://brown-y.github.io/img/testfile1/fit-linreg.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -344,7 +344,7 @@ function）能够量化目标的<em>实际</em>值与<em>预测</em>值之间的
 l^{(i)}(\mathbf{w}, b) = \frac{1}{2} \left(\hat{y}^{(i)} -
 y^{(i)}\right)^2.
 $$</span> 常数1/2将在后续方便进行求导计算。</p>
-<p><img src="/img/testfile1/fit-linreg.svg" srcset="/img/loading.gif" lazyload /></p>
+<p><img src="/img/testfile1/fit-linreg.png" srcset="/img/loading.gif" lazyload /></p>
 <p>为了度量模型在整个数据集上的质量，我们需计算在训练集𝑛个样本上的损失均值（也等价于求和）
 <span class="math display">$$
 L(\mathbf{w}, b) =\frac{1}{n}\sum_{i=1}^n l^{(i)}(\mathbf{w}, b)
@@ -387,7 +387,7 @@ dataset）上评估得到的。</p>
 从而利用线性代数库，而不是在Python中编写开销高昂的for循环。</p>
 <h2 id="从线性回归到深度网络">从线性回归到深度网络</h2>
 <p>线性回归是一个单层神经网络。</p>
-<p><img src="/img/testfile1/singleneuron.svg" srcset="/img/loading.gif" lazyload /></p>
+<p><img src="/img/testfile1/singleneuron.png" srcset="/img/loading.gif" lazyload /></p>
 <p>该图只显示连接模式，即只显示每个输入如何连接到输出，隐去了权重和偏置的值。</p>
 <p>对于线性回归，每个输入都与每个输出（在本例中只有一个输出）相连，
 我们将这种变换称为<strong>全连接层</strong>（fully-connected
