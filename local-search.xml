@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>Paper Reading:smart insole for gait monitoring</title>
+    <link href="/2025/04/19/pr-250419-scia-insole/"/>
+    <url>/2025/04/19/pr-250419-scia-insole/</url>
+    
+    <content type="html"><![CDATA[<h1 id="文章基本信息">文章基本信息</h1><ul><li>标题：A wireless, self-powered smart insole for gait monitoring andrecognition via nonlinear synergistic pressure sensing</li><li>作者：Qi Wang, Hui Guan, Chen Wang, Peiming Lei, Hongwei Sheng,Huasheng Bi, Jinkun Hu, Chenhui Guo, Yichuan Mao, Jiao Yuan, MingjiaoShao, Zhiwen Jin, Jinghua Li, Wei Lan</li><li>DOI：10.1126/sciadv.adu1598</li></ul><h1 id="文章概述">文章概述</h1><h2 id="摘要">摘要</h2><p>本文介绍了一种用于步态监测和识别的无线自供电智能鞋垫系统。该系统采用非线性协同策略设计的CNT/ACET/PDMS压力传感器，在0- 225kPa范围内线性度高（R²&gt;0.999），经180,000次压缩测试性能稳定。利用柔性钙钛矿太阳能电池（FPSCs）供电，可将太阳能转化为电能存储在锂电池中。集成支持向量机（SVM）学习模型，能准确识别八种运动状态。该系统可实现足底压力的高时空分辨率监测、实时可视化和分析，在医疗保健、运动科学等领域有应用潜力。</p><h2 id="研究背景">研究背景</h2><p>-<strong>医疗需求</strong>：步态由骨骼、神经和肌肉系统协同产生，持续监测足底压力和步态对多种疾病（如帕金森病、中风、扁平足、糖尿病足等）的预防、诊断和治疗具有重要意义。然而，当前医疗中使用的压力传感平台受时间和空间限制，无法满足日常监测需求。-<strong>现有可穿戴设备的局限</strong>：将传感器集成到鞋子中的可穿戴电子设备是解决上述问题的有前景策略，但现有鞋内传感器存在诸多不足。压电和摩擦电传感器只能测量动态压力信号；电容式传感器抗干扰能力弱、测量电路复杂、采样率和精度低；电阻式传感器虽能测量静态和动态压力，但通常存在非线性响应、稳定性欠佳的问题，且系统供电也是一大挑战。-<strong>研究目标</strong>：为解决这些问题，本文旨在开发一种高度集成、自供电、无线的智能鞋垫系统，实现足底压力的高时空分辨率监测以及步态的实时可视化和分析，为医疗评估、个性化治疗和生物力学研究提供实用解决方案。</p><h1 id="研究细节">研究细节</h1><h2 id="fig1">Fig1</h2><p><img src="\img\pr_250419\Fig1A.png" /></p><p>使用智能鞋垫系统的典型场景，使用PDMS封装，包含上下电极，碳纳米管CNT、乙炔黑ACET、聚二甲基硅氧烷PDMS，PCB板上的数模转换器ADC收集压力信号转化为电信号，下层还有锂电池。</p><p><img src="\img\pr_250419\Fig1B.png" /></p><p>非线性协同系统示意，由于电阻传感器的非线性响应，作者提出了一种基于非线性协同机制的策略。将机械特性与电子特性相复合，通过灵敏度<span class="math display">$$S = \frac{\frac{I-I_0}{I_0}}{p-p_0}$$</span> 使测量对应函数能够线性化。</p><p><img src="\img\pr_250419\Fig1C.png" /></p><p>智能鞋垫系统的工作流程包括基于PSC的能量采集、基于非线性协同的压力数据采集、移动端足底压力分布可视化、基于SVM学习模型的数据分类。</p><p><img src="\img\pr_250419\Fig1D.png" /></p><p>实物图，提供了智能鞋垫系统和核心感测层在初始、折叠、扭曲和拉伸状态下的照片。</p><h2 id="fig2">Fig2</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>paper reading notes</category>
+      
+      <category>triboelectric sensor</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>triboelectric sensor</tag>
+      
+      <tag>paper reading note</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Paper Reading:tactile perception - triboelectric sensors</title>
     <link href="/2025/04/15/pr-250415-afm-aits/"/>
     <url>/2025/04/15/pr-250415-afm-aits/</url>
